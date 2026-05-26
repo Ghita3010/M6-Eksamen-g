@@ -1,0 +1,42 @@
+/* Navigation bar styling */
+.navbar {
+   background-color: #d1e3e6;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 50px;
+}
+
+
+.logo img {
+   height: 130px;
+   width: auto;
+}
+
+
+.nav-links {
+   list-style: none;
+   display: flex;
+   gap: 35px;
+}
+
+
+.nav-links a {
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+   font-size: 18px;
+   letter-spacing: 0.5px;
+}
+
+
+.nav-links a:hover {
+   color: #7a9a9f;
+}
+
+
+/* Den aktive side får en streg under sig */
+.nav-links a.active {
+   border-bottom: 3px solid #7a9a9f;
+   padding-bottom: 5px;
+}
