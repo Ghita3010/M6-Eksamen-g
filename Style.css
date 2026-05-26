@@ -1,0 +1,58 @@
+body {
+   font-family: 'Segoe UI', Tahoma, sans-serif;
+   margin: 0;
+   padding: 0;
+   color: #333;
+   line-height: 1.6;
+}
+
+
+.hero-section {
+   display: flex;
+   padding: 60px 50px;
+   align-items: center;
+   gap: 50px;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+
+.hero-text {
+   flex: 1;
+}
+
+
+.hero-text h1 {
+   color: #7a9a9f;
+   font-size: 32px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+}
+
+
+.hero-image {
+   flex: 1.5;
+}
+
+
+.hero-image img {
+   width: 100%;
+   border-radius: 8px;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+ul.check-list {
+   list-style: none;
+   padding: 0;
+}
+
+
+ul.check-list li::before {
+   content: "✓ ";
+   color: #7a9a9f;
+   font-weight: bold;
+}
+
+
+
